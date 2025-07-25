@@ -1,0 +1,51 @@
+# Core TTS and AI dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Real-time TTS libraries
+RealtimeTTS>=0.3.0
+TTS>=0.22.0  # Coqui TTS for XTTS-v2
+ChatTTS>=0.1.0
+
+# Audio processing
+pyaudio>=0.2.11
+numpy>=1.24.0
+scipy>=1.10.0
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+
+# Streaming and networking
+websockets>=11.0.0
+asyncio-mqtt>=0.13.0
+rtmp-python>=0.1.0
+
+# Language processing
+jieba>=0.42.1  # Chinese text segmentation
+opencc-python-reimplemented>=0.1.7  # Chinese text conversion
+langdetect>=1.0.9
+emoji>=2.8.0
+
+# Web interface and API
+fastapi>=0.100.0
+uvicorn>=0.23.0
+streamlit>=1.25.0
+gradio>=3.40.0
+
+# Configuration and utilities
+pydantic>=2.0.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+click>=8.1.0
+rich>=13.0.0
+loguru>=0.7.0
+
+# Optional: GPU acceleration
+# nvidia-ml-py3>=7.352.0  # Uncomment if using NVIDIA GPU
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
