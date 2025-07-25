@@ -3,7 +3,8 @@ Configuration settings for AI Voice Streaming Host
 """
 import os
 from typing import Dict, Any, Optional
-from pydantic import BaseSettings, Field
+from pydantic import Field
+from pydantic_settings import BaseSettings
 from enum import Enum
 
 

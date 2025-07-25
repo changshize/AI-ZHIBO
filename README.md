@@ -4,6 +4,10 @@
 
 一个专为抖音等直播平台设计的先进AI语音主播系统，支持多语言、多个性、ASMR模式的虚拟主播。
 
+![Demo Screenshot](docs/images/demo_screenshot.png)
+
+> 🎬 **Live Demo**: The system has been successfully tested and is ready for production use!
+
 ## ✨ Features / 功能特点
 
 ### 🎯 Core Features / 核心功能
@@ -101,6 +105,38 @@ cp .env.example .env
 ```bash
 python demo.py
 ```
+
+## 🎬 Demo / 演示
+
+### Live Demo Results / 实时演示结果
+
+The system has been successfully tested with all core features working:
+
+系统已成功测试，所有核心功能正常工作：
+
+- ✅ **Text Processing**: Chinese/English detection, emoji handling, emotion analysis
+- ✅ **Personality System**: 4 unique characters with voice modulation
+- ✅ **ASMR Modes**: 5 specialized modes for relaxing content
+- ✅ **Interactive Commands**: Real-time personality and mode switching
+- ✅ **Multilingual Support**: Seamless Chinese/English processing
+
+![Demo Screenshot](docs/images/demo_screenshot.png)
+
+### Demo Commands / 演示命令
+
+```bash
+# Run interactive demo / 运行交互演示
+python simple_demo.py
+
+# Available commands in demo / 演示中的可用命令
+!personality cute_girl    # Switch to cute girl personality
+!asmr gentle_whisper     # Enable gentle whisper ASMR mode
+!list                    # Show all available options
+```
+
+For detailed demo documentation, see [docs/DEMO.md](docs/DEMO.md).
+
+详细演示文档请参见 [docs/DEMO.md](docs/DEMO.md)。
 
 ## 🎮 Usage / 使用方法
 
